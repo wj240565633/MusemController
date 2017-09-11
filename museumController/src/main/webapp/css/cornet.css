@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.mui-toast-message{
+	background-image: url("../img/toast.png");
+	color: #272A33;
+	padding: 8px 8px 8px 8px;
+}
+.body{
+	width: 100%;
+	background-color: #EBEBEB;
+	position: relative;
+}
+.title{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	font-size: 16px;
+	font-family: "΢���ź�";
+	font-weight: 600;
+}
+.context{
+	margin-left: 5%;
+	background-color: #949293;
+	width: 90%;
+	min-height: 500px;
+}
+.context-title{
+	width: 100%;
+	height: 50px;
+	background-color: #D08D00;
+	color: #000000;
+	font-family: "΢���ź�";
+	text-align: center;
+	line-height: 40px;
+}
+.context-name{
+	width: 100%;
+	height: 40px;
+	/*float: left;*/
+}
+.left{
+	text-align: center;
+	width: 40%;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	color: #EBEBEB;
+	font-family: "΢���ź�";
+	font-size: 14px;
+}
+.right{
+	text-align: center;
+	width: 60%;
+	height: 40px;
+	float: left;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	line-height: 40px;
+	color: #EBEBEB;
+	font-family: "΢���ź�";
+	font-size: 14px;
+}
+.line{
+	width: 90%;
+	height: 1px;
+	margin-left: 5%;
+	background-color: #827E66;
+}

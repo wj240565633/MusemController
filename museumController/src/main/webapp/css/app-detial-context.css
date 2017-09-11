@@ -1,0 +1,233 @@
+*{
+	padding: 0;
+	margin: 0;
+	bottom:0;
+}
+
+/* @font-face {
+font-family: Libian; 鏉╂瑩鍣烽弰顖濐嚛閺勫氦鐨熼悽銊︽降閻ㄥ嫬鐡ф担鎾虫倳鐎涳拷
+src: url("../font/Libian.ttc"); 鏉╂瑩鍣烽弰顖氱摟娴ｆ挻鏋冩禒鎯扮熅瀵帮拷
+} */
+.body{
+	background-color: #000000;
+	position: relative;
+}
+
+.divbody{
+	margin-bottom: 30px;
+}
+.plst{
+	position: fixed;
+	bottom: 100px;
+	right: 5%;
+	width: 60px;
+	height: 60px;
+	background-image: url("../img/plst.png");
+	background-size: 100% 100%;
+	z-index: 998;
+	top: 350px;
+}
+
+.mui-toast-container {
+    bottom: 40% !important;/*缁傝绔风仦锟芥惔鏇㈠劥閻ㄥ嫯绐涚粋锟�*/
+}
+.mui-toast-message{
+	background-image: url("../img/toast.png");
+	color: #272A33;
+	padding: 8px 8px 8px 8px;
+}
+.item{
+	width: 100%;
+	height: 180px;
+	background: #272A33;
+	margin-top: 5px;
+	position: relative;
+	
+}
+.item-bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url('../img/detial_item_bg.png');
+	background-size: 100% 100%;
+}
+.info{
+	width: 40%;
+	height: 60px;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+	/* font-family: Libian; */
+}
+.item img{
+	position: absolute;
+	background-size: 100% 100%;
+	top: 13%;
+	height: 80%;
+	width: 45%;
+	right: 5%;
+}
+
+
+.one{
+    color: #DCE0E0;
+}
+
+.other{
+	color: #919499;
+}
+
+.pay-one-body{
+	width: 100%;
+	position: relative;
+	top: 0px;
+}
+.pay-one-body-top{
+	width: 100%;
+	height: 65%;
+	background-color: rgba(0,0,0,0);
+	top: 0;
+}
+.pay-one-body-bottom{
+	width: 100%;
+	background-color: #F2F2F2;
+	bottom: 0;
+}
+.nouse{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	background-color: #1A1D24;
+}
+
+.kst{
+	position: absolute;
+	width: 20%;
+	height: 15%;
+	top: 8px;
+	left: 0;
+	background-image: url('../img/kst.png');
+	background-size: 100% 100%;
+}
+
+.mf{
+	position: absolute;
+	width: 20%;
+	height: 15%;
+	top: 8px;
+	left: 0;
+	background-image: url('../img/mf.png');
+	background-size: 100% 100%;
+}
+
+
+
+
+
+.language{
+	padding-top: 10px;
+	margin-left: 10%;
+	width: 80%;
+	height: 15%;
+	top: 8%;
+	left: 10%;
+	
+}
+.language span{
+	height: 100%;
+	line-height: 100%;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B
+}
+.radio{
+	margin-left: 8px;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #222222;
+}
+.pay-count{
+	padding-top: 10px;
+	margin-left: 10%;
+	width: 80%;
+	height: 15%;
+	top: 28%;
+	left: 10%;
+	
+}
+.pay-count span{
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B
+}
+.pay-sum{
+	margin-left: 10%;
+	width: 80%;
+	height: 15%;
+	top: 44%;
+	left: 10%;
+	
+}
+.pay-sum span{
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B;
+}
+.pay-sum-bottom-line{
+	margin-left: 10%;
+	width: 80%;
+	height: 1px;
+	top: 44%;
+	left: 10%;
+	background-color: #DDDDDD;
+}
+.pay-sum-bottom-line-bottom{
+	margin-left: 10%;
+	width: 80%;
+	height: 33%;
+	margin-top: 8px;
+	position: relative;
+}
+
+
+.paytype{
+	position: absolute;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B;
+	text-align: center;
+	top: 30%;
+}
+.alipay{
+	position: absolute;
+	height: 70%;
+	width: 16%;
+	left: 35%;
+	top: 10%;
+	
+}
+.wxpay{
+	top: 10%;
+	position: absolute;
+	height: 70%;
+	width: 16%;
+	left: 70%;
+}
+
+.radio{
+	display: none;
+	
+}
+.radio-l{
+	background-color: #F0AD4E sol;
+	border-radius: 10px;
+	border: 1px solid #F0AD4E;
+	margin-left: 10px;
+	color: #000000;
+	font-family: "寰蒋闆呴粦";
+	padding-left: 5px;
+	padding-right: 5px;
+	font-style:inherit;
+	
+}

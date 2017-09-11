@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mui-toast-message{
+	background-image: url("../img/toast.png");
+	color: #272A33;
+	padding: 8px 8px 8px 8px;
+}
+.item-context-body{
+	width: 100%;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+}
+.img{
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	margin-top: 5px;
+	background-color: #1A1E27;
+}
+.context{
+	width: 100%;
+	position: relative;
+}
+.context-text{
+	position: absolute;
+	width: 100%;
+	top: 5px;
+	overflow-y: scroll;
+	height: 150px;
+	margin-top: 255px;
+	background-color: #1A1E27;
+}
+.explain{
+	position: fixed;
+	margin-top: 260px;
+	width: 8%;
+	border: 1px solid #F0AD4E;
+	border-radius: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #F0AD4E;
+	text-align: center;
+	vertical-align: middle;
+	right: 3px;
+	
+}
+
+.text{
+	position: absolute;
+	width: 80%;
+	top: 5px;
+	left: 10%;
+	right: 10%;
+	word-wrap: break-word;
+	font-family: "΢���ź�";
+	color: #D9DCE5;
+}
+.explain-popumenu{
+	position: fixed;
+	margin-top: 360px;
+	width: 70%;
+	/*border: 1px solid #F0AD4E;*/
+	/*border-radius: 3px;*/
+	height: 40px;
+	right: 2%;
+	background-color: rgba(0,0,0,0);
+	
+}
+.submit{
+	position: absolute;
+	right: 8px;
+	height: 90%;
+	margin-top: 11px;
+	top: 0;
+	font-family: "΢���ź�";
+	font-size: 16px;
+	color: #F0AD4E;
+	
+	
+}
+
+
+.banner{
+	position: relative;
+	width: 70%;
+	height: 160px;
+	background-color: #C0C0C0;
+	margin-left: 15%;
+	top: 1%;
+	overflow: hidden;
+}
+
+.banner li{
+	float: left;
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	position: absolute;
+	
+}
+
+.banner li img{
+	
+	width: 100%;
+	height: 100%;
+	background-size:100% 100% ;
+	
+}
+
+.banner-point{
+	top: 205px;
+	width: auto;
+	height: 5px;
+	z-index: 998;
+	position: absolute;
+}
+
+.banner-point div{
+	position: relative;
+	top: 0;
+	float: left;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	margin-left: 3px;
+	background-color: #FF0000;
+}
+
+

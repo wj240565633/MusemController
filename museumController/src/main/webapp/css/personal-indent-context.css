@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mui-toast-message{
+	background-image: url("../img/toast.png");
+	color: #272A33;
+	padding: 8px 8px 8px 8px;
+}
+.item{
+	width: 90%;
+	margin-left: 5%;
+	height: 135px;
+	margin-top: 10px;
+}
+.time{
+	width: 100%;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 14px;
+	color: #817B7B;
+}
+.pic{
+	width: 42%;
+	float: left;
+	height: 110px;
+	margin-top: 5px;
+	background-image: url('../img/test2.png');
+	background-size: 100% 100%;
+	position: relative;
+}
+.pic-type{
+	position: absolute;
+	width: 35%;
+	height: 28%;
+	bottom: 0;
+	right: 0;
+	background-image: url('../img/kst.png');
+	background-size: 100% 100%;
+}
+
+.lid-type{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: 16px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+.info{
+	width: 50%;
+	float: left;
+	height: 110px;
+	margin-top: 5px;
+	margin-left: 5%;
+}
+.info-name{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 13px;
+}
+.info-type{
+	color: #817B7B;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 13px;
+	margin-top: 5px;
+}
+.info-time{
+	color: #817B7B;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 13px;
+	margin-top: 8px;
+}
+.info-parent{
+	color: #817B7B;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 13px;
+	margin-top: 25px;
+}

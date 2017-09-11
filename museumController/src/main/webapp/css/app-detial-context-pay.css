@@ -1,0 +1,310 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.mui-toast-message{
+	background-image: url("../img/toast.png");
+	color: #272A33;
+	padding: 8px 8px 8px 8px;
+}
+
+#progressBar{
+	background-image:  url("../img/jdt.jpg");
+	width:100%;
+	height:400px;
+	position:fixed; 
+	top:0; 
+	left:0;
+	right: 0;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+}
+
+/* @font-face {
+font-family: Libian;
+src: url("../font/Libian.ttc");
+} */
+.body{
+	position: relative;
+	width: 100%;
+	height:auto;
+	
+}
+.divbody{
+	width: 100%;
+	min-height:450px;
+	position: absolute;
+	background: #272A33;
+}
+.check{
+	position: fixed;
+	width: 100%;
+	height: 48px;
+	bottom: 0;
+	background-color: #F2F2F2;
+}
+.mui-toast-container {
+    bottom: 40% !important;/*缁傝绔风仦锟芥惔鏇㈠劥閻ㄥ嫯绐涚粋锟�*/
+}
+.mui-toast-message{
+	background-image: url("../img/toast.png");
+	color: #272A33;
+	padding: 8px 8px 8px 8px;
+}
+.item{
+	width: 100%;
+	height: 150px;
+	background: #272A33;
+	margin-top: 5px;
+	position: relative;
+	
+}
+.item-bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url('../img/detial_item_bg.png');
+	background-size: 100% 100%;
+}
+.info{
+	width: 40%;
+	height: 60px;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+	/* font-family: Libian; */
+}
+.item img{
+	position: absolute;
+	background-size: 100% 100%;
+	top: 15%;
+	height: 80%;
+	width: 45%;
+	right: 5%;
+}
+
+
+.one{
+	color: #DCE0E0;
+	/* font-family: Libian; */
+}
+.other{
+	color: #919499;
+	/* font-family: Libian; */
+}
+input[type='checkbox']{
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   outline: none;
+   display: inline-block;
+   vertical-align: middle;
+   width: 36px;
+   height: 36px;
+   border-radius: 18px;
+   background-size: 100% auto;
+   box-sizing:border-box;
+   background-position: 0 0;
+   background-color: rgba(0,0,0,0);
+   border:solid 0.5px #C3C3C3;
+	background-image: url("../img/cb_f.png");
+	background-size: 100% 100%;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top: 8px;
+	left: 5%;
+	
+}
+
+input[type='checkbox']:checked{
+	-webkit-appearance: none;
+	background-image: url("../img/cb_t.png");
+	background-size: 100% 100%;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top: 8px;
+	left: 5%;
+	
+}
+
+#checkAll{
+	top: 25%;
+	left: 5%;
+	position: absolute;
+	color: #1A1D24;
+}
+.check-value{
+	top: 32%;
+	left: 13%;
+	line-height: 14px;
+	font-size: 14px;
+	position: absolute;
+	color: #1A1D24;
+}
+.check-num{
+	top: 32%;
+	right: 25%;
+	line-height: 14px;
+	font-size: 14px;
+	position: absolute;
+	color: #1A1D24;
+}
+
+.check-pay{
+	padding-top: 12px;
+	font-size: 14px;
+	position: absolute;
+	height: 100%;
+	right: 0;
+	top: 0;
+	width: 20%;
+	bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #F0AD4E;
+	color: #1A1D24;
+}
+.mui-backdrop{
+	position: fixed;
+    top: 600px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(0,0,0,0);
+}
+.mask-paySome-body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+}
+.mask-paySome-body-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 65%;
+	background: rgba(0,0,0,0);
+}
+.mask-paySome-body-bottom{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 35%;
+	background: #FFF;
+}
+.language{
+	position: absolute;
+	width: 80%;
+	height: 15%;
+	top: 8%;
+	left: 10%;
+	
+}
+.language span{
+	height: 100%;
+	line-height: 100%;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B
+}
+.radio{
+	margin-left: 8px;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #222222;
+}
+.pay-count{
+	position: absolute;
+	width: 80%;
+	height: 15%;
+	top: 28%;
+	left: 10%;
+	
+}
+.pay-count span{
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B
+}
+.pay-sum{
+	position: absolute;
+	width: 80%;
+	height: 15%;
+	top: 44%;
+	left: 10%;
+	
+}
+.pay-sum span{
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B;
+}
+.pay-sum-bottom-line{
+	position: absolute;
+	width: 80%;
+	height: 0.5px;
+	top: 60%;
+	left: 10%;
+	background-color: #DDDDDD;
+}
+.pay-sum-bottom-line-bottom{
+	position: absolute;
+	width: 80%;
+	height: 33%;
+	top: 63%;
+	left: 10%;
+	
+}
+
+
+.paytype{
+	position: absolute;
+	top: 35%;
+	line-height: 100%;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B;
+}
+.alipay{
+	position: absolute;
+	height: 80%;
+	width: 16%;
+	margin-left: 34%;
+	top: 5%;
+}
+.wxpay{
+	position: absolute;
+	height: 80%;
+	width: 16%;
+	top: 5%;
+	margin-left: 74%;
+}
+
+.radio{
+	display: none;
+	
+}
+.radio-l{
+	background-color: #F0AD4E sol;
+	border-radius: 10px;
+	border: 1px solid #F0AD4E;
+	margin-left: 10px;
+	color: #000000;
+	font-family: "寰蒋闆呴粦";
+	padding-left: 5px;
+	padding-right: 5px;
+	font-style:inherit;
+	
+}

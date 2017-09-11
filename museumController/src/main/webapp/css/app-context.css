@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.mui-toast-message{
+	background-image: url("../img/toast.png");
+	color: #272A33;
+	padding: 8px 8px 8px 8px;
+}
+
+/* @font-face {
+font-family: Libian; 杩欓噷鏄鏄庤皟鐢ㄦ潵鐨勫瓧浣撳悕瀛�
+src: url("../font/Libian.ttc"); 杩欓噷鏄瓧浣撴枃浠惰矾寰�
+} */
+.context-body{
+	width: 100%;
+	position: relative;
+
+}
+
+.mui-scroll-item{
+	width: 35%;
+	position: absolute;
+	margin-left: 0%;
+}
+.title{
+	position: absolute;
+	top: 60px;
+	width: 28%;
+	left: 31.5%;
+	height: 160px;
+	background-image: url("../img/title_bg.png") ;
+	background-size:100% 100%;
+	color: #26272B;
+	font-size: 16px;
+ 	/* font-family:Libian; */
+	font-style: oblique; 
+	padding-left: 6px;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 5px;
+	padding-top: 6px;
+	z-index: 15;
+	
+}
+
+.mui-scroll-item img{
+	width: 100%;
+	height: 140px;
+	top: 290px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+}
+ .bg{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/item_bg.png");
+	background-size:100% 100%;
+	position: absolute;
+}
+

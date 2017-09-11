@@ -1,0 +1,409 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+.app-header{
+	width:100%;
+	height:40px;
+	position:relative;
+}
+
+.app-header span{
+	position:absolute;
+	color:#BF7E19;
+	font-size:16px;
+	width:100%;
+	text-align:left;
+	height:100%;
+	line-height:30px;
+	font-weight: 600;
+	padding: 10px;
+	
+}
+
+.app-header select {
+	border: solid 1px #000;
+	/*濞撳懘娅庢妯款吇閻ㄥ嫭鐗卞锟�*/
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	/*鐏忓繒顔勬径鏉戞禈閺嶏拷*/
+	background: url('../img/app_selecter.png') no-repeat scroll right center transparent;
+	/*鐏忓繒顔勬径鏉戞嫲閺傚洤鐡ч惃鍕？鐠猴拷*/
+	padding-right: 14px;
+	
+	color: #BF7E19;
+	position: absolute;
+	right: 2.5%;
+	text-align: center;
+	width: 70px;
+	top: 3px;
+	font-family: "寰蒋闆呴粦";
+	font-size: 16px;
+}
+
+
+
+.mui-toast-message{
+	background-image: url("../img/toast.png");
+	color: #272A33;
+	padding: 8px 8px 8px 8px;
+}
+.richscan-body{
+	position: relative;
+	background-color: #11141B;
+	width: 100%;
+	min-height: 500px;
+}
+.richscan-title{
+	width: 100%;
+	height: 30px;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.richscan-img{
+	position: absolute;
+	width: 96%;
+	height: 290px;
+	background-color: #FFFFFF;
+	left: 2%;
+	top: 45px;
+}
+.live-count{
+	position: absolute;
+	width: auto;
+	height: auto;
+	right: 5%;
+	top: 305px;
+	font-family: "寰蒋闆呴粦";
+	font-size: 12px;
+	font-weight: 600;
+}
+.can-live{
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	left: 2%;
+	top: 300px;
+}
+.richscan-info{
+	width: 96%;
+	height: 100px;
+	position: absolute;
+	top: 333px;
+	left: 2%;
+	background-color: #11141B;
+}
+.info-title{
+	position: absolute;
+	width: auto;
+	font-size: 14px;
+	line-height: 50px;
+	left: 5%;
+	color: #929292;
+	height: 50px;
+}
+.info-title a{
+	color: #F0AD4E;
+	padding: 3px;
+	text-decoration:underline;
+}
+.info-text{
+	position: absolute;
+	width: auto;
+	font-size: 12px;
+	left: 5%;
+	right: 3%;
+	color: #929292;
+	top: 50px;
+	height: 40px;
+	overflow: hidden;
+	word-break: break-word;
+	text-overflow: ellipsis;
+}
+.info-text span{
+	color: #929292;
+	font-weight: 600;
+}
+
+
+.richscan{
+	position: absolute;
+	width: 100%;
+	top: 450px;
+}
+.richscan-voice{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-size: 100% 100%;
+	top:20px;
+	right: 14px;
+}
+
+.rs-voice{
+	position: absolute;
+	top: 130px;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	right: 12px;
+	background-image: url('../img/unload.png');
+	background-size: 100% 100%;
+}
+
+.richscan-shareQRCode{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 15px;
+	top: 460px;
+	background-size: 100% 100%;
+	z-index: 998;
+}
+
+
+
+.rs-shareQRCode{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left:14px;
+	background-size: 100% 100%;
+	z-index: 998;
+}
+
+.test{
+	position: absolute;
+	width: 100%;
+	background-color: #00FF00;
+}
+
+
+.richscan-voice-loading{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	right: 4%;
+	top: 500px;
+	background-image: url('../img/loading.png');
+	background-size: 100% 100%;
+	-webkit-animation: 2s linear infinite;
+	
+	/*-moz-transform:rotate(45deg);
+
+	-webkit-transform:rotate(45deg);*/
+
+
+	/*-ms-transform:rotate(45deg); 
+
+	transform:rotate(45deg); */
+}
+
+
+
+.mui-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(255,255,255,0);
+}
+
+.mask-paySome-body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+}
+.mask-paySome-body-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 65%;
+	background: rgba(0,0,0,0);
+}
+.mask-paySome-body-bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 30%;
+	background: #FFF;
+}
+.language{
+	position: absolute;
+	width: 80%;
+	height: 15%;
+	top: 8%;
+	left: 10%;
+	
+}
+.language span{
+	height: 100%;
+	line-height: 100%;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B
+}
+.radio{
+	margin-left: 8px;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #222222;
+}
+.pay-count{
+	position: absolute;
+	width: 80%;
+	height: 15%;
+	top: 28%;
+	left: 10%;
+	
+}
+.pay-count span{
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B
+}
+.pay-sum{
+	position: absolute;
+	width: 80%;
+	height: 15%;
+	top: 28%;
+	left: 10%;
+	
+}
+.pay-sum span{
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B;
+}
+.pay-sum-bottom-line{
+	position: absolute;
+	width: 80%;
+	height: 0.5px;
+	top: 50%;
+	left: 10%;
+	background-color: #DDDDDD;
+}
+.pay-sum-bottom-line-bottom{
+	position: absolute;
+	width: 80%;
+	height: 33%;
+	top: 53%;
+	left: 10%;
+	
+}
+
+
+.paytype{
+	position: absolute;
+	top: 35%;
+	line-height: 100%;
+	font-family: "寰蒋闆呴粦";
+	font-size: 14px;
+	color: #817B7B;
+}
+.alipay{
+	position: absolute;
+	height: 78%;
+	width: 16%;
+	margin-left: 34%;
+	top: 13%;
+}
+.wxpay{
+	position: absolute;
+	height: 75%;
+	width: 16%;
+	top: 13%;
+	margin-left: 74%;
+}
+
+#progressBar{
+	background-image:  url("../img/jdt.jpg");
+	width:100%;
+	height:400px;
+	position:fixed; 
+	top:0; 
+	left:0;
+	right: 0;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+}
+
+.radio{
+	display: none;
+	
+}
+.radio-l{
+	background-color: #F0AD4E;
+	border-radius: 10px;
+	border: 1px solid #F0AD4E;
+	margin-left: 10px;
+	color: #000000;
+	font-family: "寰蒋闆呴粦";
+	padding-left: 5px;
+	padding-right: 5px;
+	font-style:inherit;
+	
+}
+
+
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #C0C0C0;
+	overflow: hidden;
+}
+
+.banner li{
+	float: left;
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	position: absolute;
+	
+}
+
+.banner li img{
+	
+	width: 100%;
+	height: 100%;
+	background-size:100% 100% ;
+	
+}
+
+.banner-point{
+	top: 95%;
+	width: auto;
+	height: 5px;
+	z-index: 998;
+	position: absolute;
+	background-color: #FFFFFFFF;
+}
+
+.banner-point div{
+	position: relative;
+	top: 0;
+	float: left;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	margin-left: 3px;
+	background-color: #FF0000;
+}
